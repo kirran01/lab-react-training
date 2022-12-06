@@ -1,12 +1,23 @@
 import React from 'react';
 
 const Greetings = (props) => {
-  return (
-    <div>
-      <p>{props.lang}</p>
-      <p>{props.children}</p>
-    </div>
-  );
+  if (props.lang === 'de') {
+    return (
+      <div className="greeting">
+        <p>hallo </p>
+        <p>-</p>
+        <p>{props.children}</p>
+      </div>
+    );
+  } else if (props.lang === 'fr') {
+    return (
+      <div className="greeting">
+        <p>bonjour </p>
+        <p>-</p>
+        <p>{props.children}</p>
+      </div>
+    );
+  }
 };
 
 export default Greetings;
