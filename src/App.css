@@ -26,3 +26,46 @@ display: flex;
 .random{
   border: 1px solid black;
 }
+
+.credit-cards{
+  display: flex;
+}
+
+.card-title{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-title p{
+  margin:0;
+}
+
+.card-number{
+  font-size:30px;
+  padding:0 20px 0;
+}
+
+.card-number p{
+  margin:10px 0 10px;
+}
+
+
+.card-exp-and-bank{
+  display: flex;
+}
+
+.card-exp-and-bank p{
+  margin:0;
+  margin-right:10px
+}
+
+.card-owner p{
+margin-bottom: 0;
+margin-top: 0;
+}
+.credit-card{
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
