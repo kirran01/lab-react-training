@@ -1,12 +1,22 @@
 import React from 'react';
+import { useState } from 'react';
 
 const ClickablePicture = (props) => {
-    return (
-        <div>
-            <img src='' alt='1'></img>
-            <img src='' alt='2'></img>
-        </div>
-    );
-}
+  const [picture, setPicture] = useState(props.img);
+
+  return (
+    <div
+      onClick={() => {
+        if (picture === props.img) {
+          setPicture(props.imgClicked);
+        } else {
+          setPicture(props.img);
+        }
+      }}
+    >
+      <img style={{ height: 200 }} src={picture} alt="1"></img>
+    </div>
+  );
+};
 
 export default ClickablePicture;
