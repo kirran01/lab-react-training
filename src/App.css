@@ -69,3 +69,19 @@ margin-top: 0;
   margin: 10px;
   border: 1px solid;
 }
+
+
+.driver-card{
+  background-color: #455db5;
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.driver-card img{
+  margin:10px;
+}
