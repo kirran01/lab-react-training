@@ -85,3 +85,15 @@ margin-top: 0;
 .driver-card img{
   margin:10px;
 }
+
+.number-table{
+display: flex;
+flex-wrap: wrap;
+width:550px;
+}
+
+.number-square{
+height:50px;
+width:50px;
+border:2px solid;
+}
