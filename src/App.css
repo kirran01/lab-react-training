@@ -4,8 +4,8 @@
 
 .id-card{
   display: flex;
-
   border: 2px solid black;
+  margin: 5px;
 }
 
 .id-card-info{
@@ -15,16 +15,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5px;
 }
 
 .greeting{
 display: flex;
  border: 1px solid black;
+ margin: 5px;
 }
 
 
 .random{
   border: 1px solid black;
+  margin: 5px;
 }
 
 .credit-cards{
@@ -89,11 +92,16 @@ margin-top: 0;
 .number-table{
 display: flex;
 flex-wrap: wrap;
-width:550px;
+width:300px;
 }
 
 .number-square{
 height:50px;
 width:50px;
-border:2px solid;
+border:1px solid;
+}
+
+.facebook-card{
+  border: 1px solid;
+  margin: 5px;
 }
